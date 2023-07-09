@@ -162,3 +162,101 @@ nav li a{
     margin-bottom: 50px;
 }
 
+/* Skills section style */
+
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    padding: 0px 230px;
+}
+
+.skill{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.Icon-image{
+    margin-bottom: 30px;
+}
+
+.skill-title{
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.skill-description{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+.skill-content{
+
+    margin-top: 20px;
+    padding: 30px;
+
+
+}
+
+/* End Experience section style */
+
+/* -----------Start Skill section style---------- */
+
+.resume{
+
+    margin: 0px 230px;
+}
+
+.resume-top-title{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 113px;
+    color: var(--dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 71px;
+}
+
+.My-Education{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.education-name{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.admission-details{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education-content-description{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-center{
+    
+margin-left: 420px;
+margin-top: 50px;
+
+}
+
+
