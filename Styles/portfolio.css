@@ -1,6 +1,5 @@
 *{
-    margin: 0;
-    padding: 0;
+
 }
 
 /* common shared style */
@@ -11,7 +10,7 @@ body{
 }
 
 .Primary-color{
-   color:#FD6E0A;
+    color:#FD6E0A;
 }
 
 .Primary-btn{
@@ -28,34 +27,49 @@ body{
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title{
-color: #181818;
-font-size: 45px;
-font-weight: 800;
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
 
 nav > ul{
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
-nav li {
-    
+nav li { 
     list-style: none;
-    margin:68px 50px;
-    
-
+    margin-left: 50px;
 }
 
 nav li a{
-color:#474747;
-font-size: 20px;
-font-weight: 400;
-text-decoration: none;
+    color:#474747;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
 }
+
+
+/* header related style */
+.header{
+    background-color:#FFF8F3;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 30px 30px 200px;
+}
+
+.profile-pic{
+    width: 584px;
+}
+
