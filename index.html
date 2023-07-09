@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <!---Add Font Family--->
+    <script src="https://kit.fontawesome.com/7472c29f3c.js" crossorigin="anonymous"></script>
     <!-----Main Style link------->
     <link rel="stylesheet" href="Styles/portfolio.css">
 </head>
@@ -30,8 +31,8 @@
                 <h3 class="banner-greeting">Hi, I  am</h3>
                 <h1 class="banner-main-title">Mary Hardy</h1>
                 <p class="banner-description">Shot what able cold new see hold.Friendly as an betrayed formerly <br> he. Morning because as to society behaved moments.</p>
-                <button class="Primary-btn">Download CV</button>
-                <button class="secoendry-btn">Contact</button>
+                <button class="Primary-btn"> <i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="secoendry-btn"><i class="fa-solid fa-phone"></i> Contact</button>
             </div>
                 <img class="profile-pic" src="images/hardy.png" alt="Profile Picture">
         </div>
@@ -109,6 +110,8 @@
         </section>  
 <!------End Experience Section----------->
 
+<!------Start Resume Section----------->
+
 <section class="resume">
     <h3 class="resume-top-title">A summary of My Resume</h3>
     <div class="resume-container">
@@ -174,9 +177,43 @@
     </div>
    </div> 
    <div class="btn-center">
-    <button class="Primary-btn">Download CV</button>
+    <button class="Primary-btn"> <i class="fa-solid fa-download"></i> Download CV</button>
     </div>
 </section>
+<!------End Resume Section----------->
     </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content-left">
+                <h3>Lets Connect</h3>
+                <p>Please fill out the form on this section to contact with me or call between <br> 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="icon-container">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="footer-container-right">
+                <div class="footer-content-right">
+                    <div class="form-cotainer">
+                        <h3>Let’s Message me</h3>
+
+                        <form class="contact" action="">
+                                <input type="text" placeholder="Your name">
+                                <input type="text" placeholder="Your email">
+                                 <textarea class="message-text" name="Message" id="message" cols="20" rows="6" placeholder="message"></textarea><br>
+
+                      <input class="Primary-btn" type="submit" value="submit">
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
 </body>
 </html>

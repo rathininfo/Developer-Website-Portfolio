@@ -259,3 +259,39 @@ margin-bottom: 130px;
 }
 
 
+footer{
+    background-color: #FFF8F3;
+}
+
+.deatils{
+    display: block;
+    margin-bottom: 10px;
+    padding: 18px 35px;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 117px;
+    padding: 130px 200px;
+
+}
+
+.contact input{
+    display: block;
+    margin-bottom: 25px;
+}
+
+.contact textarea{
+    margin-bottom: 15px;
+}
+
+.contact input,textarea{
+    padding: 10px 36px;
+    width: 100%;
+    border: 0;
+}
+
+    
+
